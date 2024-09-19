@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <title>A Relíquia de Aravoras: Fuga do Reino Perdido</title>
+</head>
+<body>
+   <main>
+       <div class="passo ativo" id="passo-0">
+         <img src="img/cenario-passo0.png" alt="">  
+         <p>Você é um mago aprendiz, explorando a biblioteca secreta da sua escola, quando encontra um antigo livro de feitiços coberto de poeira. Ao abri-lo, uma luz intensa envolve o ambiente e, antes que você perceba, é transportado para um reino mágico desconhecido. A sua missão agora é simples: encontrar uma maneira de voltar para casa.</p>
+         <button class="btn-proximo" data-proximo="1">Seguir pelo rio </button>
+         <button class="btn-proximo" data-proximo="2">Seguir para a floresta </button>
+       </div>
+       <div class="passo" id="passo-1">
+           <p>Você segue por um caminho à beira de um rio, onde janelas mágicas flutuam acima da água, cada uma mostrando diferentes momentos do passado e do futuro. De repente, uma janela brilha com intensidade e parece chamar sua atenção.</p>
+           <button class="btn-proximo" data-proximo="3">Examinar a janela mais brilhante </button>
+           <button class="btn-proximo" data-proximo="4">Voltar para o caminho anterior </button>
+       </div>
+       <div class="passo" id="passo-2">
+         <p>Você se aprofunda na floresta densa, onde a névoa começa a ficar cada vez mais espessa. Em meio à neblina, você avista uma antiga cabana, aparentemente abandonada. Ao se aproximar, percebe que a porta está entreaberta.</p>
+         <button class="btn-proximo" data-proximo="5">Entrar na cabana para investigar </button>
+         <button class="btn-proximo" data-proximo="6">Seguir por um caminho ao redor da cabana</button>
+       </div>
+       <div class="passo" id="passo-3">
+         <p>Ao se aproximar da janela brilhante, uma voz ecoa de dentro dela, dizendo: “Esta é a passagem para o Reino de Aravoras, um lugar de perigos e segredos.</p>
+         <button class="btn-proximo" data-proximo="7">Entrar na janela e ir para Aravoras </button>
+      </div>
+        <div class="passo" id="passo-4">
+          <img src="img/cenario-passo4.png" alt="">
+            <p>Você decide voltar para o caminho anterior, mas percebe que as janelas começaram a desaparecer uma a uma, e o rio se torna cada vez mais sombrio. De repente, tudo escurece, e você fica preso no vazio entre mundos, sem como voltar.</p>
+          <p>fim</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Dentro da cabana, você encontra um velho mapa e um baú antigo. O mapa parece indicar a localização de um grande tesouro, mas o baú está trancado com um feitiço. O mapa também menciona Aravoras, um reino distante que pode conter a chave para destrancar o baú.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa até Aravoras</button>
+       </div>
+       <div class="passo" id="passo-6">
+         <p>Você segue adiante na floresta e encontra um portal coberto de videiras. Ao entrar, você se vê transportado para uma cidade flutuante nas nuvens, onde bibliotecas antigas e torres encantadas se erguem à sua frente.</p>
+         <button class="btn-proximo" data-proximo="8">Explorar a cidade mágica </button>
+      </div>
+      <div class="passo" id="passo-7">
+         <p>Você chega ao perigoso Reino de Aravoras, onde se depara com um enorme dragão que guarda a pedra mágica, essencial para ativar o portal de volta ao seu mundo. Você deve usar suas habilidades mágicas ou tentar negociar com a criatura.</p>
+         <button class="btn-proximo" data-proximo="9">Seguir pelo caminho da esquerda, onde a presença do dragão parece mais fraca </button>
+         <button class="btn-proximo" data-proximo="10">Seguir pelo caminho da direita, onde há sinais de tesouros</button>
+      </div>
+      <div class="passo" id="passo-8">
+         <p>Enquanto explora a cidade mágica, você encontra um grimório antigo que menciona o poder do Reino de Aravoras. O grimório sugere que o portal de volta ao seu mundo pode ser ativado por uma relíquia específica que está guardada pelo dragão de Aravoras.</p>
+         <button class="btn-proximo" data-proximo="7">Seguir o grimório e ir para Aravoras </button>
+     </div>
+     <div class="passo" id="passo-9">
+         <p>Você escolhe seguir pelo caminho da esquerda na caverna do dragão. Ele é escuro e perigoso, mas após um tempo, você encontra uma sala secreta com artefatos mágicos antigos. No centro, um portal brilhante está quase ativo, mas você sente a presença do dragão se aproximando.</p>
+         <button class="btn-proximo" data-proximo="11">Tentar ativar o portal rapidamente e fugir </button>
+    </div>
+    <div class="passo" id="passo-10">
+         <p>Você escolhe seguir pelo caminho da direita, onde sinais de tesouros são visíveis. Após uma longa caminhada, você encontra o dragão adormecido sobre uma vasta quantidade de ouro e, próximo a ele, está a pedra mágica que você precisa para ativar o portal de volta ao seu mundo.</p>
+         <button class="btn-proximo" data-proximo="12">Tentar pegar a pedra silenciosamente e fugir </button>
+  </div>
+  <div class="passo" id="passo-11">
+     <img src="img/cenario-passo12.png" alt="">  
+     <p>Decidido a não arriscar mais tempo, você tenta ativar o portal rapidamente e fugir. O dragão percebe sua tentativa e começa a atacar com uma fúria implacável. Usando seus últimos feitiços, você consegue se defender o suficiente para ativar o portal e atravessá-lo antes que o dragão possa impedi-lo completamente.</p>
+     <p>Você atravessa o portal com sucesso, mas o poder do dragão ainda ecoa em seus ouvidos, e você sabe que a ameaça de Aravoras sempre estará à espreita. De volta ao seu mundo, você se recupera e começa a refletir sobre os próximos desafios que o aguardam.</p>
+</div>
+<div class="passo" id="passo-12">
+     <p>Você tenta pegar a pedra silenciosamente ou ativar o portal sem acordar o dragão. No entanto, ele percebe sua presença no último segundo. O dragão lança uma chama poderosa, e você é forçado a desviar, o que interrompe sua tentativa de ativar o portal. Com a magia desestabilizada e ferido, você precisa agir rapidamente antes que o dragão bloqueie completamente sua saída.</p>
+     <button class="btn-proximo" data-proximo="11">Tentar ativar o portal rapidamente e fugir </button>
+</div>
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
